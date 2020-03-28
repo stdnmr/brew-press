@@ -1,3 +1,5 @@
-# My First App
+# My First App - Brew Time
 
-This repository will be my first iOS app. As soon as I have learned to code an app and settled on a not too big idea. See [TODO.md](TODO.md) for more info on the current status.
+This repository will contain my first iOS app. It will be an app to store coffee recipes and time them while brewing.
+
+Now that the idea is settled, I only have learned to code an app. See [TODO.md](TODO.md) for more info on the current status.
