@@ -13,6 +13,7 @@
 		18516695243A7B4100C5F088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18516693243A7B4100C5F088 /* Main.storyboard */; };
 		18516697243A7B4200C5F088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18516696243A7B4200C5F088 /* Assets.xcassets */; };
 		1851669A243A7B4200C5F088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18516698243A7B4200C5F088 /* LaunchScreen.storyboard */; };
+		18CF9DEC24448EAC00090731 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF9DEB24448EAC00090731 /* RecipeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18516696243A7B4200C5F088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18516699243A7B4200C5F088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1851669B243A7B4200C5F088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CF9DEB24448EAC00090731 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				18516696243A7B4200C5F088 /* Assets.xcassets */,
 				18516698243A7B4200C5F088 /* LaunchScreen.storyboard */,
 				1851669B243A7B4200C5F088 /* Info.plist */,
+				18CF9DEB24448EAC00090731 /* RecipeData.swift */,
 			);
 			path = BrewTime;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18516692243A7B4100C5F088 /* ViewController.swift in Sources */,
+				18CF9DEC24448EAC00090731 /* RecipeData.swift in Sources */,
 				1851668E243A7B4100C5F088 /* AppDelegate.swift in Sources */,
 				18516690243A7B4100C5F088 /* SceneDelegate.swift in Sources */,
 			);
