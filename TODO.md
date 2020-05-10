@@ -8,9 +8,14 @@
 - [x] Watch WWDC intro video on how to code an app (Started watching, created vanilla xcode project)
 - [ ] Learn some swift
 - [x] Implement first timer in prototype
-- [ ] Find out what is necessary to test on device (Apply for developer account?)
+- [x] Find out what is necessary to test on device (Apply for developer account?)
+- [x] Install app on device
 - [ ] Think about what I need for Timer UI (e.g. total time, current step, next step, ...)
-- [ ] Create timer UI elements on storyboard
+- [x] Create more timer UI elements on storyboard
+- [x] Program first recipe
+- [ ] Expand app desgin for more recipes
+- [ ] Use App in real life
+- [ ] Restart Timer
 
 
 ## Backlog
