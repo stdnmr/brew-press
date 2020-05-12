@@ -35,9 +35,13 @@ class ViewController: UIViewController {
         descStepCurrentLabel.isHidden = true
         descStepNextLabel.isHidden = true
         descStepNextHeading.isHidden = true
+        UIApplication.shared.isIdleTimerDisabled = false
+        timer.invalidate()
     }
     
     func runRecipe() {
+        UIApplication.shared.isIdleTimerDisabled = false
+        UIApplication.shared.isIdleTimerDisabled = true
         timeTotalLeft = recipeTimesAeropress.reduce(0, +)
         currentStep = 0
         timeStepLeft = recipeTimesAeropress[currentStep]
@@ -68,6 +72,7 @@ class ViewController: UIViewController {
         
         if timeTotalLeft <= 0 {
             timer.invalidate()
+            UIApplication.shared.isIdleTimerDisabled = false
             descStepCurrentLabel.text = "Enjoy"
             timeStepLabel.text = "☕️"
         }
@@ -101,7 +106,6 @@ class ViewController: UIViewController {
     
     @IBAction func resetReleased(_ sender: UIButton) {
         print("Reset timer button was pressed")
-        timer.invalidate()
         setStartScreen()
     }
     

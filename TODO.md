@@ -13,9 +13,10 @@
 - [ ] Think about what I need for Timer UI (e.g. total time, current step, next step, ...)
 - [x] Create more timer UI elements on storyboard
 - [x] Program first recipe
-- [ ] Expand app desgin for more recipes
-- [ ] Use App in real life
+- [ ] Expand app desgin for more (second) recipes
+- [x] Use App in real life
 - [x] Restart Timer Button
+- [x] Prevent screen dim and sleep (Maybe done?)
 
 
 ## Backlog
