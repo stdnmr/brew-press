@@ -56,6 +56,14 @@
                                 <color key="textColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pj-Rt-gNs">
+                                <rect key="frame" x="168" y="748" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E0X-go-Mxk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -64,6 +72,7 @@
                         <outlet property="descStepCurrentLabel" destination="t0H-Ud-fe6" id="MPj-MF-oVh"/>
                         <outlet property="descStepNextHeading" destination="Qvn-Xy-dJj" id="DgA-hM-fJZ"/>
                         <outlet property="descStepNextLabel" destination="rVm-wW-CQm" id="hdg-Hy-bZ1"/>
+                        <outlet property="resetRecipeButton" destination="6Pj-Rt-gNs" id="FxV-ck-egm"/>
                         <outlet property="startRecipeButton" destination="kp8-x9-6uP" id="Ive-hI-Eoz"/>
                         <outlet property="timeStepLabel" destination="iDF-SZ-NAE" id="BBD-oH-qMB"/>
                         <outlet property="timeTotalLabel" destination="wJP-kv-hBX" id="bqd-LL-0qu"/>

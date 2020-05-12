@@ -15,7 +15,7 @@
 - [x] Program first recipe
 - [ ] Expand app desgin for more recipes
 - [ ] Use App in real life
-- [ ] Restart Timer
+- [x] Restart Timer Button
 
 
 ## Backlog

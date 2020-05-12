@@ -11,22 +11,31 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var startRecipeButton: UIButton!
+    @IBOutlet var resetRecipeButton: UIButton!
+    
     @IBOutlet var timeTotalLabel: UILabel!
     @IBOutlet var timeStepLabel: UILabel!
     @IBOutlet var descStepCurrentLabel: UILabel!
     @IBOutlet var descStepNextLabel: UILabel!
     @IBOutlet var descStepNextHeading: UILabel!
+
     
     var timer = Timer()
     var timeTotalLeft = 0
     var timeStepLeft = 0
     var currentStep = 0
     
-    
     var recipeStepsAeropress: [String] = ["Pour", "Stir", "Steep", "Stir", "Flip", "Plunge"]
     var recipeTimesAeropress: [Int] = [5, 10, 45, 5, 5, 20]
 
-
+    func setStartScreen() {
+        startRecipeButton.isHidden = false
+        timeTotalLabel.isHidden = true
+        timeStepLabel.isHidden = true
+        descStepCurrentLabel.isHidden = true
+        descStepNextLabel.isHidden = true
+        descStepNextHeading.isHidden = true
+    }
     
     func runRecipe() {
         timeTotalLeft = recipeTimesAeropress.reduce(0, +)
@@ -80,11 +89,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        timeTotalLabel.isHidden = true
-        timeStepLabel.isHidden = true
-        descStepCurrentLabel.isHidden = true
-        descStepNextLabel.isHidden = true
-        descStepNextHeading.isHidden = true
+        setStartScreen()
     }
 
     
@@ -93,6 +98,13 @@ class ViewController: UIViewController {
         startRecipeButton.isHidden = true
         runRecipe()
     }
+    
+    @IBAction func resetReleased(_ sender: UIButton) {
+        print("Reset timer button was pressed")
+        timer.invalidate()
+        setStartScreen()
+    }
+    
     
 }
 
