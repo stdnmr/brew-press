@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet var descStepCurrentLabel: UILabel!
     @IBOutlet var descStepNextLabel: UILabel!
     @IBOutlet var descStepNextHeading: UILabel!
-
+    @IBOutlet var descHeading: UILabel!
+    
     
     var timer = Timer()
     var timeTotalLeft = 0
@@ -30,6 +31,8 @@ class ViewController: UIViewController {
 
     func setStartScreen() {
         startRecipeButton.isHidden = false
+        descHeading.isHidden = false
+        resetRecipeButton.isHidden = true
         timeTotalLabel.isHidden = true
         timeStepLabel.isHidden = true
         descStepCurrentLabel.isHidden = true
@@ -47,6 +50,7 @@ class ViewController: UIViewController {
         timeStepLeft = recipeTimesAeropress[currentStep]
         
 //        displayLabelsAtStart()
+        resetRecipeButton.isHidden = false
         timeTotalLabel.text = "\(timeTotalLeft)"
         timeTotalLabel.isHidden = false
             
@@ -101,6 +105,7 @@ class ViewController: UIViewController {
     @IBAction func startPressed(_ sender: Any) {
         print("Start timer button was pressed")
         startRecipeButton.isHidden = true
+        descHeading.isHidden = true
         runRecipe()
     }
     
