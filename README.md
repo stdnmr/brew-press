@@ -1,8 +1,8 @@
 # Brew Press
 
-My simple Aeropress Recipe Timer App
+My simple Aeropress recipe timer app.
 
-The app just times the different steps for brewing coffee with an Aeropress for on specific method. 
+The app just times the different steps for brewing coffee with an Aeropress for one specific method. 
 
 ## Method
 
