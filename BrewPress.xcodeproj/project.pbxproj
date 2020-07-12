@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1851668A243A7B4100C5F088 /* BrewTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1851668A243A7B4100C5F088 /* BrewPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1851668D243A7B4100C5F088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1851668F243A7B4100C5F088 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18516691243A7B4100C5F088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		18516681243A7B4100C5F088 = {
 			isa = PBXGroup;
 			children = (
-				1851668C243A7B4100C5F088 /* BrewTime */,
+				1851668C243A7B4100C5F088 /* BrewPress */,
 				1851668B243A7B4100C5F088 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		1851668B243A7B4100C5F088 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1851668A243A7B4100C5F088 /* BrewTime.app */,
+				1851668A243A7B4100C5F088 /* BrewPress.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1851668C243A7B4100C5F088 /* BrewTime */ = {
+		1851668C243A7B4100C5F088 /* BrewPress */ = {
 			isa = PBXGroup;
 			children = (
 				1851668D243A7B4100C5F088 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				1851669B243A7B4200C5F088 /* Info.plist */,
 				18CF9DEB24448EAC00090731 /* RecipeData.swift */,
 			);
-			path = BrewTime;
+			path = BrewPress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18516689243A7B4100C5F088 /* BrewTime */ = {
+		18516689243A7B4100C5F088 /* BrewPress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 185166B4243A7B4200C5F088 /* Build configuration list for PBXNativeTarget "BrewTime" */;
+			buildConfigurationList = 185166B4243A7B4200C5F088 /* Build configuration list for PBXNativeTarget "BrewPress" */;
 			buildPhases = (
 				18516686243A7B4100C5F088 /* Sources */,
 				18516687243A7B4100C5F088 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = BrewTime;
+			name = BrewPress;
 			productName = BrewTime;
-			productReference = 1851668A243A7B4100C5F088 /* BrewTime.app */;
+			productReference = 1851668A243A7B4100C5F088 /* BrewPress.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18516685243A7B4100C5F088 /* Build configuration list for PBXProject "BrewTime" */;
+			buildConfigurationList = 18516685243A7B4100C5F088 /* Build configuration list for PBXProject "BrewPress" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18516689243A7B4100C5F088 /* BrewTime */,
+				18516689243A7B4100C5F088 /* BrewPress */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQD23TUBSD;
-				INFOPLIST_FILE = BrewTime/Info.plist;
+				INFOPLIST_FILE = BrewPress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = stdnmr.BrewTime;
+				PRODUCT_BUNDLE_IDENTIFIER = stdnmr.BrewPress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,12 +308,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NQD23TUBSD;
-				INFOPLIST_FILE = BrewTime/Info.plist;
+				INFOPLIST_FILE = BrewPress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = stdnmr.BrewTime;
+				PRODUCT_BUNDLE_IDENTIFIER = stdnmr.BrewPress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18516685243A7B4100C5F088 /* Build configuration list for PBXProject "BrewTime" */ = {
+		18516685243A7B4100C5F088 /* Build configuration list for PBXProject "BrewPress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				185166B2243A7B4200C5F088 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		185166B4243A7B4200C5F088 /* Build configuration list for PBXNativeTarget "BrewTime" */ = {
+		185166B4243A7B4200C5F088 /* Build configuration list for PBXNativeTarget "BrewPress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				185166B5243A7B4200C5F088 /* Debug */,
